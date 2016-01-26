@@ -33,6 +33,7 @@ class ViewController: UIViewController {
         totalLabel.text = "$0.00"
         tipStepperLabel.text = Int(stepper.value).description
         
+        billField.becomeFirstResponder()
     }
     
     @IBAction func changeAmount(sender: AnyObject) {
